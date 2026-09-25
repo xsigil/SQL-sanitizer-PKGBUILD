@@ -1,0 +1,37 @@
+# ==============================================================================
+# Arch Linux PKGBUILD .gitignore
+# ==============================================================================
+
+# makepkg working and packaging directories
+src/
+pkg/
+
+# Downloaded source archives and checksum files
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+*.zip
+*.part
+
+# Built Arch Linux packages
+*.pkg.tar.*
+*.pkg.tar.zst
+*.pkg.tar.xz
+*.pkg.tar.gz
+
+# makepkg log and debug files
+*.log
+*.log.*
+*.deb
+*.rpm
+
+# Signature and metadata temporary files
+*.sig
+
+# Editor and OS noise
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
